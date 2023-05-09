@@ -1,0 +1,74 @@
+[
+    {
+        "id": 265786,
+        "is_authenticated": true,
+        "last_message": {
+            "text": "",
+            "created": "",
+            "attachments": []
+        },
+        "username": "azuredeveloper123",
+        "secret": "pbkdf2_sha256$260000$RpqxLPr66aQjesYvsu3EZb$YHcfav2LiEWZpOqsEqnyiB/RpD/s97Xv8SxDkGcFoqY=",
+        "email": "eric@ilionx.com",
+        "first_name": "Eric",
+        "last_name": "Wonder",
+        "avatar": "/img/avatar/avatar1.png",
+        "custom_json": "{}",
+        "is_online": false,
+        "created": "2023-05-04T14:36:29.106290Z"
+    },
+    {
+        "id": 265788,
+        "is_authenticated": true,
+        "last_message": {
+            "text": "",
+            "created": "",
+            "attachments": []
+        },
+        "username": "Benneke",
+        "secret": "pbkdf2_sha256$260000$H6ywAqrHnv5p1SM7rlVaBk$3VufRMcTmH9x2JPxWT6H3mBzxnXcGCzQ6v5hFe2ZYPw=",
+        "email": "ben@ilionx.com",
+        "first_name": "Ben",
+        "last_name": "Janssen",
+        "avatar": "/img/avatar/avatar3.png",
+        "custom_json": "{}",
+        "is_online": false,
+        "created": "2023-05-04T14:40:10.107212Z"
+    },
+    {
+        "id": 265789,
+        "is_authenticated": true,
+        "last_message": {
+            "text": "",
+            "created": "",
+            "attachments": []
+        },
+        "username": "Croatiaaaa",
+        "secret": "pbkdf2_sha256$260000$Q38J2FQP4fBzeewIFExgbR$P9mslIHMWeWnILM+Ehz6QO3H1HkvH1TtMFnIbQS27tM=",
+        "email": "lea@ilionx.com",
+        "first_name": "Lea",
+        "last_name": "Dubrovnic",
+        "avatar": "/img/avatar/avatar4.png",
+        "custom_json": "{}",
+        "is_online": false,
+        "created": "2023-05-04T14:40:16.040528Z"
+    },
+    {
+        "id": 265787,
+        "is_authenticated": true,
+        "last_message": {
+            "text": "",
+            "created": "",
+            "attachments": []
+        },
+        "username": "Front-to-the-End",
+        "secret": "pbkdf2_sha256$260000$wvwzk5TKrZWnPSUDmc1ztt$VHyspwAtAAF1cKsieaDIKj4j/m6tggcrVC/qeexC0Mg=",
+        "email": "stefan@ilionx.com",
+        "first_name": "Stefan",
+        "last_name": "Perez",
+        "avatar": "/img/avatar/avatar2.png",
+        "custom_json": "{}",
+        "is_online": false,
+        "created": "2023-05-04T14:40:05.248624Z"
+    }
+]
