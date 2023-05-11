@@ -14,6 +14,7 @@ This is code that is going to be used for the DevDays 2023 Cypress Workshop
 - Node installed - Version 15+
 	- If you have node dependency's towards other application then install `nvm`
 - An account at: https://chatengine.io/
+- GIT installed
   
 
 ## vue-app folder
