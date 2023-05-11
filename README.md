@@ -1,29 +1,36 @@
-# README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+# ilionx DevDays Cypress Workshop #
+This is code that is going to be used for the DevDays 2023 Cypress Workshop
 
-### What is this repository for? ###
+  
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### What does this repository contain? ###
 
-### How do I get set up? ###
+* A Vue chat application
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* A NodeJS server
 
-### Contribution guidelines ###
+### prerequisite ###
+- Node installed - Version 15+
+	- If you have node dependency's towards other application then install `nvm`
+- An account at: https://chatengine.io/
+  
 
-* Writing tests
-* Code review
-* Other guidelines
+## vue-app folder
+**Installation**
 
-### Who do I talk to? ###
+* Navigate towards the ***vue-app*** folder and do a `npm install`
 
-* Repo owner or admin
-* Other community or team contact
+* Make sure you add a `.env` file in the root of your application with the following content:
+	* `VITE_ENV_API=development`
+
+* Run the application by executing the following command in the terminal: `npm run dev`
+
+## server folder
+**Installation**
+
+* Navigate towards the ***server*** folder and do a `npm install`
+* Make sure you add a `.env` file in the root of your application with the following content:
+	* `PRIVATE_KEY=HERE_COMES_YOUR_KEY`
+* Start the application with the following command:
+	* `nodemon server`

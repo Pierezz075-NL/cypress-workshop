@@ -2,11 +2,13 @@ const express = require("express");
 const cors = require("cors");
 const { default: axios } = require("axios");
 
+require('dotenv').config();
+
 const app = express();
 app.use(express.json());
 app.use(cors({ origin: true }));
 
-const private_key = "ed3e6131-4e82-492e-b82d-2b1ddba9b88e";
+const private_key = process.env.PRIVATE_KEY;
 
 app.get("/getUsers", async (req, res) => {
     try {
