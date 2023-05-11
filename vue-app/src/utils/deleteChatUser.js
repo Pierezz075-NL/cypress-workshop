@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export default async function deleteChatUsers(userid: number) {
+export default async function deleteChatUsers(userid) {
   try {
     const response = await axios.delete('http://localhost:3001/deleteUser', {
       data: { id: userid }

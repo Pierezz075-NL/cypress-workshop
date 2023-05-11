@@ -1,0 +1,20 @@
+[
+    {
+        "id": 265786,
+        "is_authenticated": true,
+        "last_message": {
+            "text": "",
+            "created": "",
+            "attachments": []
+        },
+        "username": "azuredeveloper123",
+        "secret": "pbkdf2_sha256$260000$RpqxLPr66aQjesYvsu3EZb$YHcfav2LiEWZpOqsEqnyiB/RpD/s97Xv8SxDkGcFoqY=",
+        "email": "eric@ilionx.com",
+        "first_name": "Eric",
+        "last_name": "Wonder",
+        "avatar": "/img/avatar/avatar1.png",
+        "custom_json": "{}",
+        "is_online": false,
+        "created": "2023-05-04T14:36:29.106290Z"
+    }
+]

@@ -1,0 +1,58 @@
+<template>
+    <div class="wrapper">
+        <h1>Shapes:</h1>
+        <div class="square"></div>
+        <div id="circle"></div>
+        <div data-cy="triangle"></div>
+    </div>
+</template>
+
+<script>
+</script>
+
+<style scoped>
+.wrapper {
+    background-color: #282a3a !important;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10% auto;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: aliceblue;
+    margin: 30px;
+    grid-column-start: span 3;
+}
+
+div {
+    margin: 30px;
+    display: inline-block;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: #ff657a;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: #bad761;
+    border-radius: 50%
+}
+
+[data-cy="triangle"] {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #c39ac9;
+}
+</style>

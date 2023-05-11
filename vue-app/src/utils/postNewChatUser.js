@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export default async function getChatUsers(name: string) {
+export default async function getChatUsers(name) {
     try {
           const response = await axios.post('http://localhost:3001/createUser', {
             username: name,

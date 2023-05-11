@@ -11,6 +11,7 @@
           fill="white"></path>
       </svg>
 
+      <h1>Welcome :)</h1>
       <div class="form-subtitle">Set a username to get started</div>
 
       <div class="auth">
@@ -49,7 +50,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
-import postNewChatUser from '@/utils/postNewChatUser';
+import postNewChatUser from '../utils/postNewChatUser';
 
 const router = useRouter();
 const username = ref('');

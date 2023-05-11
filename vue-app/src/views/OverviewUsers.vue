@@ -25,8 +25,8 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import getChatUsers from '@/utils/getChatUsers';
-import deleteChatUser from '@/utils/deleteChatUser';
+import getChatUsers from '../utils/getChatUsers';
+import deleteChatUser from '../utils/deleteChatUser';
 
 interface User {
   id: number;

@@ -22,6 +22,7 @@ app.get("/getUsers", async (req, res) => {
 
 app.post("/createUser", async (req, res) => {
   const { username } = req.body;
+  console.log(username);
   try {
     const r = await axios.put(
         "https://api.chatengine.io/users/",
