@@ -2,13 +2,16 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:5173/',
-    chromeWebSecurity: false,
+    baseUrl: 'http://localhost:3001',
+    env: {
+      // requestMode: true,
+      hideCredentials: true,
+      hideCredentialsOptions: {
+        body: ['username'],
+      }
+    },
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    video: true,
-    videosFolder: "cypress/videos",
-    videoCompression: 32,
   },
 });

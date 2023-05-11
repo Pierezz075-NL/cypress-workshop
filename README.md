@@ -33,4 +33,4 @@ This is code that is going to be used for the DevDays 2023 Cypress Workshop
 * Make sure you add a `.env` file in the root of your application with the following content:
 	* `PRIVATE_KEY=HERE_COMES_YOUR_KEY`
 * Start the application with the following command:
-	* `nodemon server`
+	* `npm start`
